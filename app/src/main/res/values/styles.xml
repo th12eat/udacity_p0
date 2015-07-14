@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TitleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/udacitynavyblue</item>
+        <item name="android:textSize">@dimen/title_text_font_size</item>
+    </style>
+
+    <style name="ActivityBackground">
+        <item name="android:background">@color/udacitylightblue</item>
+    </style>
+
+    <style name="MyNanodegreeAppsButtons">
+        <item name="android:backgroundTint">@color/udacityorange</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/home_button_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/home_button_horizontal_margin</item>
+    </style>
+
+    <style name="MyNanodegreeAppsCapstoneButton">
+        <item name="android:backgroundTint">@color/udacitybrightred</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/home_button_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/home_button_horizontal_margin</item>
+    </style>
+
+</resources>
